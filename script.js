@@ -3,12 +3,12 @@
 // 1. let numberOfStudents = 17;
 // Check if we have more than 20 students, if yes console log "classroom too small"else console log "classroom size acceptable
 
-// let numberOfStudents = 17;
-// if(numberOfStudents > 20){
-//     console.log("classroom too small")
-// } else {
-//     console.log("classroom size acceptable")
-// };
+let numberOfStudents = 17;
+if(numberOfStudents > 20){
+    console.log("classroom too small")
+} else {
+    console.log("classroom size acceptable")
+};
 
 
 // 2. 
@@ -19,13 +19,13 @@
 
 // If 2 or less houses - log “seems reasonable
 
-// let numberOfHouses = 1;
+let numberOfHouses = 1;
 
-// if(numberOfHouses > 2){
-//     console.log("you need to sell more houses")
-// } else if (numberOfHouses <= 2) {
-//     console.log("seems reasonable")
-// }
+if(numberOfHouses > 2){
+    console.log("you need to sell more houses")
+} else if (numberOfHouses <= 2) {
+    console.log("seems reasonable")
+}
 
 
 // 3. 
@@ -45,6 +45,8 @@
 //     console.log("I'll get the bill this time")
 // change this aapproch, and modify the code. 
 
+// 4. Student Score checks
+
 let studentScore = 900;
 
 if(studentScore <= 55 ){
@@ -62,4 +64,34 @@ if(studentScore <= 55 ){
 }
 
 
+// 5. Think of three more examples using conditions
+//  Check to see if a user if logged in
 
+let logedUser = true;
+let user;
+
+if(logedUser){
+    user = logedUser;
+    console.log("Welcome to your website ");
+} else {
+    user = "Please log in"
+}
+console.log(user);
+
+let riderHeight = 0;
+let riderAge = 0;
+
+// Base Case checking for both riderHeight and Age. 
+if(riderHeight > 52 && riderAge >= 10){
+    console.log("get on that ride Kiddo")
+} else {
+    console.log("Sorry kiddo, maybe next year")
+};
+
+// Adjusting the condition, to require either height or Age.
+
+if(riderAge >= 10 || riderHeight > 52){
+    console.log("get on that ride Kiddo")
+} else {
+    console.log("Sorry kiddo, maybe next year")
+};
