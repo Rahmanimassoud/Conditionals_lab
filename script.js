@@ -95,3 +95,29 @@ if(riderAge >= 10 || riderHeight > 52){
 } else {
     console.log("Sorry kiddo, maybe next year")
 };
+
+
+
+// ====================EXTRA PRACTICE==========================
+
+// Write a nested if/else statement
+// Declare a variable ‘num’
+// Add an if/else statement that checks if ‘num’ is positive & greater than 100
+// Add another statement that checks if ‘num’ is positive but less than 100
+// Add an the final statement to check if ‘num’ is negative
+
+let num = "";
+
+if(isNaN(num) || num.trim() === ""){ //Making sure it's a valid number and not an empty string. to check for empty string we use the .trim method.
+    console.log("Invalid input, please provide a valid number")
+} else {
+    if(num > 100){
+        console.log("num is greater than 100")
+    } else if(num > 0 && num < 100){
+        console.log("number is less than 100 and greater than 0")
+    } else if(num < 0){
+        console.log( num + " is a negative number")
+    } else {
+        console.log("number is " + num)
+    }
+};
